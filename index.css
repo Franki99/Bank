@@ -197,3 +197,143 @@ input {
   border-radius: 4px;
   box-sizing: border-box;
 }
+.services {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 80%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the div */
+}
+.service {
+  text-align: center;
+}
+.class {
+  width: 50%; /* Adjust the width as needed */
+  display: block; /* Ensures the image is centered */
+  margin: 50px auto 0; /* Centers the image horizontally and adds margin from top */
+}
+.class img {
+  max-width: 50%; /* Set the maximum width to 100% of its container */
+  height: auto; /* Let the height adjust proportionally based on the width */
+}
+
+footer {
+  background-color: #0c0c0c; /* Set background color */
+  color: #fff; /* Set text color */
+  padding: 20px 0; /* Add padding */
+  text-align: center; /* Align text center */
+  position: fixed; /* Fix the footer at the bottom of the viewport */
+  width: 100%; /* Set the width to fill the viewport */
+  bottom: 0; /* Align at the bottom */
+}
+.about {
+  width: 80%; /* Adjust the width as needed */
+  height: auto; /* Let the height adjust based on content */
+  max-width: 800px; /* Limit the maximum width to prevent it from becoming too wide */
+  padding: 20px; /* Add padding to give space around the text */
+  font-size: 16px; /* Adjust the font size as needed */
+  position: absolute;
+  top: 70%; /* Adjust as needed */
+  left: 80%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the div */
+}
+.About {
+  position: absolute;
+  top: 30%; /* Adjust as needed */
+  left: 80%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the div */
+}
+
+.class1 {
+  width: 80%; /* Adjust the width as needed */
+  display: block; /* Ensures the image is centered */
+  margin: 30px auto 0; /* Centers the image horizontally and adds margin from top */
+}
+.class1 img {
+  max-width: 30%; /* Set the maximum width to 100% of its container */
+  height: auto; /* Let the height adjust proportionally based on the width */
+}
+.contact1 {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 80%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the div */
+}
+.contact2 {
+  position: absolute;
+  top: 70%; /* Adjust as needed */
+  left: 78%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the div */
+}
+.contact {
+  position: absolute;
+  top: 30%; /* Adjust as needed */
+  left: 79%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the div */
+}
+.contact3 {
+  width: 80%; /* Adjust the width as needed */
+  display: block; /* Ensures the image is centered */
+  margin: 30px auto 0; /* Centers the image horizontally and adds margin from top */
+}
+.contact3 img {
+  max-width: 100%; /* Set the maximum width to 100% of its container */
+  height: auto; /* Let the height adjust proportionally based on the width */
+}
+.logos {
+  width: 100%; /* Adjust the width as needed */
+  display: block; /* Ensures the image is centered */
+  margin: 70px auto 0; /* Centers the image horizontally and adds margin from top */
+}
+.logos img {
+  max-width: 2%; /* Set the maximum width to 100% of its container */
+  height: auto; /* Let the height adjust proportionally based on the width */
+}
+form.Subscribe {
+  max-width: 400px;
+  margin: 40px auto 0; /* Adjusted margin to move the form upwards */
+  padding: 50px;
+  background: #0c0c0c;
+  border-radius: 4px;
+  color: #333;
+}
+form.Subscribe input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #0c0c0c;
+}
+form.inquiry {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #0c0c0c;
+  border-radius: 4px;
+  color: #333;
+}
+form.inquiry input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #0c0c0c;
+}
+form.inquiry textarea {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #0c0c0c;
+  /* Set height of the textarea */
+  min-height: 100px; /* Adjust as needed */
+}
